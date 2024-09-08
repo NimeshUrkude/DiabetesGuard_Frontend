@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
+*{
+  font-family: "SUSE", sans-serif;
+}
+:root {
+  --primary-color:#174C64;
+  --secondary-color:#57D7FE;
+  --white-color:#ffffff;
+  --black-color:#000000;
+  --gray-color:#f7f7f8;
+  --dark-gray-color:#2d2d2d;
+}
+
+/*color*/
+.bgLight{
+  background-color: var(--gray-color);
+}
+.bgDark{
+  background-color: var(--black-color);
+  color: var(--white-color);
+}
+
+/*text*/
+.h-1 {
+  font-size: 4rem;
+  font-weight: 600;
+}
+.h-2 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+.h-3 {
+  font-size: 1.75rem;
+  font-weight: 500;
+}
+.h-4 {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+.h-5 {
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+.h-6{
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+.h-7{
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+/*container*/
+.myContainer{
+  padding:18px 50px;
+}
+.navbarFooterMyContainer{
+  padding: 10px 50px;
+}
+
+
+/*button*/
+.noBtn{
+  background-color: transparent;
+  border: 0px;
+  color: var(--white-color);
+}
+.whiteButton {
+  border: 0px;
+  background-color: var(--white-color);
+  padding: 3px 20px;
+  color: var(--black-color);
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+.whiteButton:hover {
+  background-color: transparent;
+  color: var(--white-color);
+  transform: scale(1.1);
+  box-shadow: 0px 4px 15px rgba(255, 255, 255, 0.5);
+}
+
+.blackButton {
+  border: 0px;
+  background-color: var(--secondary-color);
+  padding: 3px 20px;
+  color: var(--black-color);
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+.blackButton:hover {
+  background-color: #174C64; 
+  color: var(--white-color);
+  transform: scale(1.1);
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.whiteTextButton {
+  background-color: transparent;
+  border: 0px;
+  color: var(--white-color);
+  position: relative;
+  overflow: hidden;
+}
+
+.whiteTextButton::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 2px;
+  background-color: var(--white-color);
+  transition: all 0.4s ease-out;
+  transform: translateX(-50%);
+}
+
+.whiteTextButton:hover::after {
+  width: 100%;
+}
+
+/*pic*/
+.landingPic {
+  background-color: var(--black-color);
+  border-radius: 50px;
+  width: 50%;
+  height: 80%;
+  object-fit: contain;
+}
+
+/*100vh*/
+.nav100vh{
+  min-height: calc(100vh - 70px);
+}
+
+/*headerfix*/
+.headerFix{
+  position: sticky;
+  top: 0;
+  z-index: 5;
+}
+
+.signInUpInput{
+  background-color: #eee;
+  border: none;
+  padding: 12px 15px;
+  margin: 8px 0;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.timelineCard{
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  border-radius: 15px;
+  flex-direction: column;
+}
+
+.timelineImg{
+  height: 50px;
+  margin: 5px;
+}
+
+.adminPic {
+  width: 100%;
+  aspect-ratio: 1 / 1; /* Forces a 1:1 aspect ratio */
+  border-radius: 50%; /* Equivalent to 100% for a perfect circle */
+  object-fit: cover; /* Ensures the image covers the container */
+}
