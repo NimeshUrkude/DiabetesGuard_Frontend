@@ -1,71 +1,31 @@
-# Getting Started with Create React App
+# DiabetesGuard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**DiabetesGuard** is a comprehensive solution for tracking and predicting the likelihood of diabetes. It combines a frontend, backend, and machine learning model to provide users with insights into their health and recommendations based on their risk level.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Predictive Analytics**: Utilizes machine learning to predict diabetes risk based on user data.
+- **User-Friendly Interface**: Intuitive frontend interface for easy interaction and data visualization.
+- **Secure Data Handling**: Ensures user data is handled securely with proper validation and storage.
 
-### `npm start`
+## Components
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Frontend
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The frontend of the DiabetesGuard application is built using React. It provides a user-friendly interface for interaction with the prediction model and displays results based on user input.
 
-### `npm test`
+- **Frontend Repository**: [DiabetesGuard_Frontend](https://github.com/NimeshUrkude/DiabetesGuard_Frontend)
+- **Live Demo**: [DiabetesGuard Frontend](https://nimeshurkude.github.io/DiabetesGuard_Frontend)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Backend
 
-### `npm run build`
+The backend is implemented with Node.js and Express, providing endpoints for communication between the frontend and the prediction model. It also handles user data securely and performs necessary validation.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Backend Repository**: [DiabetesGuard_Backend](https://github.com/NimeshUrkude/DiabetesGuard_Backend)
+- **Live API**: [DiabetesGuard Backend](https://diabetesguard-backend.onrender.com)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Machine Learning Model
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The machine learning model is designed to predict the likelihood of diabetes based on input features. The model is trained on a dataset and provides predictions that the frontend uses to inform users of their health status.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# DiabetesGuard_Frontend
+- **Model Repository**: [DiabetesGuard_Model](https://github.com/NimeshUrkude/DiabetesGuard_Model)
