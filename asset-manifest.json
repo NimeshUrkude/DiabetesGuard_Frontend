@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/DiabetesGuard_Frontend/static/css/main.85f8f224.css",
+    "main.js": "/DiabetesGuard_Frontend/static/js/main.446c528f.js",
+    "static/js/453.32c88cbb.chunk.js": "/DiabetesGuard_Frontend/static/js/453.32c88cbb.chunk.js",
+    "static/media/landing.png": "/DiabetesGuard_Frontend/static/media/landing.f00caf281e0536c9647e.png",
+    "static/media/datasetVisual.png": "/DiabetesGuard_Frontend/static/media/datasetVisual.c4bb0f6facacca9da593.png",
+    "static/media/model.png": "/DiabetesGuard_Frontend/static/media/model.df916fc1d7a6c9ffe5bb.png",
+    "static/media/recallCurve.png": "/DiabetesGuard_Frontend/static/media/recallCurve.28c04ad925207e8eb123.png",
+    "static/media/confusedMatrix.png": "/DiabetesGuard_Frontend/static/media/confusedMatrix.db734b22890b9ed6eb5f.png",
+    "static/media/enter.png": "/DiabetesGuard_Frontend/static/media/enter.5b0ebe6f1f8a02138628.png",
+    "static/media/lossVsEpochs.png": "/DiabetesGuard_Frontend/static/media/lossVsEpochs.86fe8640d48fd22fa144.png",
+    "static/media/predict.png": "/DiabetesGuard_Frontend/static/media/predict.541acd9e4bb28ac82755.png",
+    "static/media/create.png": "/DiabetesGuard_Frontend/static/media/create.0ee05da932ca8c70e736.png",
+    "index.html": "/DiabetesGuard_Frontend/index.html",
+    "main.85f8f224.css.map": "/DiabetesGuard_Frontend/static/css/main.85f8f224.css.map",
+    "main.446c528f.js.map": "/DiabetesGuard_Frontend/static/js/main.446c528f.js.map",
+    "453.32c88cbb.chunk.js.map": "/DiabetesGuard_Frontend/static/js/453.32c88cbb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.85f8f224.css",
+    "static/js/main.446c528f.js"
+  ]
+}
