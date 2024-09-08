@@ -17,8 +17,8 @@ function Footer() {
                     <p className="my-1 h6">Empowering your health with AI-driven diabetes insights.</p>
                 </div>
                 <div className="mt-3">
-                    <button className="whiteTextButton h-5" onClick={()=> navigate("/")}>Home</button>
-                    <button className="whiteTextButton h-5" onClick={()=> navigate("/about")}>About</button>
+                    <button className="whiteTextButton h-5" onClick={()=> navigate("/DiabetesGuard_Frontend")}>Home</button>
+                    <button className="whiteTextButton h-5" onClick={()=> navigate("/DiabetesGuard_Frontend/about")}>About</button>
                 </div>
             </div>
             <p className="my-1 h6 text-center mt-3 mb-1">© 2024 DiabetesGuard</p>

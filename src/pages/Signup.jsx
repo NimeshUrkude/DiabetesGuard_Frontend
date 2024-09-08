@@ -62,7 +62,7 @@ function Signup() {
     try{
       const response = await axios(config);
       toast.success('Acount Created');
-      navigate("/signin");
+      navigate("/DiabetesGuard_Frontend/signin");
     } catch (error) {
       toast.error(error.response.data.error);
     }
@@ -108,7 +108,7 @@ function Signup() {
       <div className="col-md-6 d-md-flex d-none bgDark d-flex flex-column justify-content-center align-items-center">
         <p className="h-1 m-0">Hello, Friend!</p>
         <p className="h-5">Enter your personal details and start journey with us or else</p>
-        <button className="whiteButton h-4 mt-5" onClick={()=> navigate("/signin")}>SignIn</button>
+        <button className="whiteButton h-4 mt-5" onClick={()=> navigate("/DiabetesGuard_Frontend/signin")}>SignIn</button>
       </div>
     </main>
   );

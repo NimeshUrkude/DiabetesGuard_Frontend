@@ -29,11 +29,11 @@ function App() {
       <Toaster />
       <Header/>
       <Routes location={location} key={location.pathname}>
-        <Route path="/" element={<Home/>}/>
-        <Route path="/admin" element={<Admin/>}/>
-        <Route path="/signin" element={<Signin/>}/>
-        <Route path="/signup" element={<Signup/>}/>
-        <Route path="/about" element={<About/>}/>
+        <Route path="/DiabetesGuard_Frontend" element={<Home/>}/>
+        <Route path="/DiabetesGuard_Frontend/admin" element={<Admin/>}/>
+        <Route path="/DiabetesGuard_Frontend/signin" element={<Signin/>}/>
+        <Route path="/DiabetesGuard_Frontend/signup" element={<Signup/>}/>
+        <Route path="/DiabetesGuard_Frontend/about" element={<About/>}/>
       </Routes>
       <Footer/>
     </>

@@ -58,7 +58,7 @@ const handleSubmit = async () => {
     const response = await axios(config);
     toast.success('Acount Login');
     dispatch(updateJwtStore(response.data.token));
-    navigate("/admin");
+    navigate("/DiabetesGuard_Frontend/admin");
   } catch (error) {
     toast.error(error.response.data.error);
   }
@@ -69,7 +69,7 @@ const handleSubmit = async () => {
       <div className="col-md-6 d-md-flex d-none bgDark d-flex flex-column justify-content-center align-items-center">
         <p className="h-1 m-0">Welcome Back!</p>
         <p className="h-5">To keep connected with us please login with your personal info</p>
-        <button className="whiteButton h-4 mt-5" onClick={()=> navigate("/signup")}>SignUp</button>
+        <button className="whiteButton h-4 mt-5" onClick={()=> navigate("/DiabetesGuard_Frontend/signup")}>SignUp</button>
       </div>
       <div className="col-md-6 col-sm-12 d-flex flex-column justify-content-center align-items-center p-5">
         <p className="h-2">Create Account</p>

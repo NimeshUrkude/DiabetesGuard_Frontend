@@ -14,7 +14,7 @@ function Home() {
     useEffect(() => {
         // Redirect to /admin if token is present
         if (token) {
-            navigate("/admin");
+            navigate("/DiabetesGuard_Frontend/admin");
         }
     }, [token, navigate]);
 
@@ -26,7 +26,7 @@ function Home() {
                 <p className="h-2 m-0">AI-powered diabetes risk tracking and management.</p>
                 <p className="h-5 m-0">Using advanced machine learning, we predict your diabetes risk—no diabetes, pre-diabetes, or diabetes—and provide personalized steps to reduce it.</p>
                 <div className="d-flex d-flex justify-content-center">
-                    <button className="blackButton h-3 mt-5" onClick={()=> navigate("/signup")}>Check Your Risk</button>
+                    <button className="blackButton h-3 mt-5" onClick={()=> navigate("/DiabetesGuard_Frontend/signup")}>Check Your Risk</button>
                 </div>
             </div>
             <div className="col-md-6 d-none d-md-flex justify-content-center align-items-center p-0">
@@ -62,7 +62,7 @@ function Home() {
             </div>
 
             <div className="d-flex justify-content-center">
-                <button className="blackButton h-3 mt-5 mb-5" onClick={()=> navigate("/signup")}>Join Now</button>
+                <button className="blackButton h-3 mt-5 mb-5" onClick={()=> navigate("/DiabetesGuard_Frontend/signup")}>Join Now</button>
             </div>
         </main>
         </>
